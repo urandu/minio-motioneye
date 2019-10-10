@@ -1,4 +1,4 @@
-**NB** This is a temporary solution, as we await for this PR on motioneye to be merged to the main branch.
+**NB** This is a temporary solution, as we await for [this PR](https://github.com/ccrisan/motioneye/pull/1490) on motioneye to be merged to the main branch.
 
 # minio-motion-eye
 
