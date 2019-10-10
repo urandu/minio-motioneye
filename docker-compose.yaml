@@ -14,6 +14,6 @@ services:
     env_file: &envfile
       - env.env
     ports:
-      - "9000"
+      - "9000:9000"
     volumes:
       - ./storage/minio:/data
