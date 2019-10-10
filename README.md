@@ -8,4 +8,4 @@ This is is a docker compose file that includes a minio version that has the feat
 
 ## Docs
 
-please refer to motioneye docs over [here]()
+please refer to motioneye docs over [here](https://github.com/ccrisan/motioneye/wiki)
