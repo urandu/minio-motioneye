@@ -1,0 +1,19 @@
+version: "3.5"
+services:
+  motioneye:
+    image: urandu/motioneye:latest
+    ports:
+      - "8084:8081"
+      - "8767:8765"
+    volumes:
+      - ./motioneye/config:/etc/motioneye
+      - ./motioneye/media:/home/nobody/motioneye/media
+  minio:
+    image: "minio/minio"
+    command: server /data
+    env_file: &envfile
+      - env.env
+    ports:
+      - "9000"
+    volumes:
+      - ./storage/minio:/data
